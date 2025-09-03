@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        REMOTE_HOST = '10.10.10.70'  а
+        REMOTE_HOST = '10.10.10.70'
     }
     stages {
         stage('Install Apache2') {
